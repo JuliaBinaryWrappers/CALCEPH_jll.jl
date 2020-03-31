@@ -1,0 +1,10 @@
+name = "CALCEPH_jll"
+uuid = "dd3044d3-6c85-52eb-b239-9fbeaa51d7ac"
+version = "3.4.2+0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+julia = "1.0"
