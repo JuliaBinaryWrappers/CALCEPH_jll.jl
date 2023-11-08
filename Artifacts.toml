@@ -1,115 +1,143 @@
 [[CALCEPH]]
 arch = "aarch64"
-git-tree-sha1 = "df47d6b5c71d81a8b1ce48b8e2d2eb16962dc278"
-libc = "glibc"
-os = "linux"
-
-    [[CALCEPH.download]]
-    sha256 = "151b28ee2554a07e96641399a100bbad44189d228d71a6cbc62868eb78da4db6"
-    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.4.7+0/CALCEPH.v3.4.7.aarch64-linux-gnu.tar.gz"
-[[CALCEPH]]
-arch = "aarch64"
-git-tree-sha1 = "77f87d86cfa8fe8687a84f8689dafcea9aeb8db9"
-libc = "musl"
-os = "linux"
-
-    [[CALCEPH.download]]
-    sha256 = "76443b5c12ace15d27fbaa746cae84269226643377bdc34c89d7a6c2c0007deb"
-    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.4.7+0/CALCEPH.v3.4.7.aarch64-linux-musl.tar.gz"
-[[CALCEPH]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "45b6cf23f3b0615a1784b17ead6a34037eac770e"
-libc = "glibc"
-os = "linux"
-
-    [[CALCEPH.download]]
-    sha256 = "d1b09b78027cb1a2cffa055b92c3e03469269e21fa82ab0fdc1285d9e3d77b0d"
-    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.4.7+0/CALCEPH.v3.4.7.armv7l-linux-gnueabihf.tar.gz"
-[[CALCEPH]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "4101f1a8f7b8a1f628e92689349b30c73d025b3b"
-libc = "musl"
-os = "linux"
-
-    [[CALCEPH.download]]
-    sha256 = "f9d17d811a2c1d9a63a78a79c4c1b37821802fb50931f9bf73d5fc91a40aa091"
-    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.4.7+0/CALCEPH.v3.4.7.armv7l-linux-musleabihf.tar.gz"
-[[CALCEPH]]
-arch = "i686"
-git-tree-sha1 = "04b12b341991fb6aceb64e83bc12fd061c3292e5"
-libc = "glibc"
-os = "linux"
-
-    [[CALCEPH.download]]
-    sha256 = "b5cf1ad5211df60ad1668b5356648ff03ef0f2ff0acc8148b7c2c470da293b08"
-    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.4.7+0/CALCEPH.v3.4.7.i686-linux-gnu.tar.gz"
-[[CALCEPH]]
-arch = "i686"
-git-tree-sha1 = "bae8aa65200f653525626262bb1e6fd92fc13ba6"
-libc = "musl"
-os = "linux"
-
-    [[CALCEPH.download]]
-    sha256 = "677489847ade1fcbd3a8b487c6ccfef79bd9e07db6bdeb9cf7341926690098a9"
-    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.4.7+0/CALCEPH.v3.4.7.i686-linux-musl.tar.gz"
-[[CALCEPH]]
-arch = "i686"
-git-tree-sha1 = "68bda01eb916f5372238bf0772f7352c38e9b919"
-os = "windows"
-
-    [[CALCEPH.download]]
-    sha256 = "1fb1a00efe3ffc0b33e869aba9573adb05b30b6f6a126b78135e5ee12ddc92e6"
-    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.4.7+0/CALCEPH.v3.4.7.i686-w64-mingw32.tar.gz"
-[[CALCEPH]]
-arch = "powerpc64le"
-git-tree-sha1 = "33b51a68f3ef249872634209939f75dcd2c55717"
-libc = "glibc"
-os = "linux"
-
-    [[CALCEPH.download]]
-    sha256 = "bc4a3758bdabd6b5a4a6982ba3c9e9519eb81b9bb6c8fdffa284cbbaccaead47"
-    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.4.7+0/CALCEPH.v3.4.7.powerpc64le-linux-gnu.tar.gz"
-[[CALCEPH]]
-arch = "x86_64"
-git-tree-sha1 = "ecc00c4b84fe33a46ed59235da3c89e42e59f205"
+git-tree-sha1 = "1c795911fb8602c89e33db403c466c52809a2fbd"
 os = "macos"
 
     [[CALCEPH.download]]
-    sha256 = "b6f1e11d0832dad76f6293d891838e9d8f4067152dd819cf2bda94abd5cbe640"
-    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.4.7+0/CALCEPH.v3.4.7.x86_64-apple-darwin.tar.gz"
+    sha256 = "a270788e8254ca5e5c0ad6b29128dffc6a528df269eb7c21cb390077b484380d"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.aarch64-apple-darwin.tar.gz"
 [[CALCEPH]]
-arch = "x86_64"
-git-tree-sha1 = "8ada842544e50468864038dee2c9b418bb494924"
+arch = "aarch64"
+git-tree-sha1 = "3737c087be72d4c832d89954ae301a66b39b3bf6"
 libc = "glibc"
 os = "linux"
 
     [[CALCEPH.download]]
-    sha256 = "8b63eb8d2ee17eccc854d3e081fc315abb43d8b972ffc7d51a3d46d4ef8fbf11"
-    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.4.7+0/CALCEPH.v3.4.7.x86_64-linux-gnu.tar.gz"
+    sha256 = "27189cf447cb11fad77f1d173ce8dc2d4821c4a68ec994ee592958233ad756b3"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.aarch64-linux-gnu.tar.gz"
 [[CALCEPH]]
-arch = "x86_64"
-git-tree-sha1 = "9ccfbe7d752f57515e36a5ecb041669e325989de"
+arch = "aarch64"
+git-tree-sha1 = "0571af3ebadd0b31ecd0d292b90cb04fa2a6a0d5"
 libc = "musl"
 os = "linux"
 
     [[CALCEPH.download]]
-    sha256 = "59d4df0579aab91fa7994176bad67cf6ebf8475375bc936fd0b6659e3346c6b7"
-    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.4.7+0/CALCEPH.v3.4.7.x86_64-linux-musl.tar.gz"
+    sha256 = "54823c228b3cbe8b1e33666ab37ff312a05cca0c2013c744109ebce1146da370"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.aarch64-linux-musl.tar.gz"
 [[CALCEPH]]
-arch = "x86_64"
-git-tree-sha1 = "3d45ff6013730a18cabbc02ff13aa762c120c141"
-os = "freebsd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "5427664a4392eed740571488d0c66f8233311df6"
+libc = "glibc"
+os = "linux"
 
     [[CALCEPH.download]]
-    sha256 = "a8daaf317d4a0c8c243824dc5684a5c1f173f9d397802c264e513b3541d6301c"
-    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.4.7+0/CALCEPH.v3.4.7.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "3ddfc04b4ac8ccf383b0519978b6f70e8c7e79257f7aaf9d7c371bf9195e90a0"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.armv6l-linux-gnueabihf.tar.gz"
 [[CALCEPH]]
-arch = "x86_64"
-git-tree-sha1 = "601c0bf0713cb96497b9107aaf3862a0b918493b"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "04dec1d8c451f01b7dda5a0f143a16c60495636a"
+libc = "musl"
+os = "linux"
+
+    [[CALCEPH.download]]
+    sha256 = "5209c302db5c0405475f1f028578d61f5de293bceef93d0611b4d2de5edbfa92"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.armv6l-linux-musleabihf.tar.gz"
+[[CALCEPH]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "1eee58580b69008103617ba9c20d8f237de2031b"
+libc = "glibc"
+os = "linux"
+
+    [[CALCEPH.download]]
+    sha256 = "dee0dfe6710148bcc95edb0af63900154c411a99976f72a075c6035fa0a826f8"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.armv7l-linux-gnueabihf.tar.gz"
+[[CALCEPH]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "8be69b303b418b3c3fb776f7e67feba158e993db"
+libc = "musl"
+os = "linux"
+
+    [[CALCEPH.download]]
+    sha256 = "61aaa63ae602429c3bfaba01f735cf8e27403e8deac19775a2436489f5e09a9b"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.armv7l-linux-musleabihf.tar.gz"
+[[CALCEPH]]
+arch = "i686"
+git-tree-sha1 = "0861963a5630e358dd439c68383825ce3bc79e49"
+libc = "glibc"
+os = "linux"
+
+    [[CALCEPH.download]]
+    sha256 = "f10ca00e0617271cd4e70e1380d86eb13a569f8a3e5cb942195750a75859914a"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.i686-linux-gnu.tar.gz"
+[[CALCEPH]]
+arch = "i686"
+git-tree-sha1 = "0933b10f8f10708fecee9360f5d225aa2ac95642"
+libc = "musl"
+os = "linux"
+
+    [[CALCEPH.download]]
+    sha256 = "2da06884dcf5436c7c1dd6a0ec169554d957f0cd73003ebd24c9f4cfb1a48d2a"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.i686-linux-musl.tar.gz"
+[[CALCEPH]]
+arch = "i686"
+git-tree-sha1 = "7d87c4d226287b47ab81099ad24f7619d77e17f2"
 os = "windows"
 
     [[CALCEPH.download]]
-    sha256 = "0d451531d01a82425998d1245bd92a6cafe266da38169f009a606e3bd5c5eab1"
-    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.4.7+0/CALCEPH.v3.4.7.x86_64-w64-mingw32.tar.gz"
+    sha256 = "6e4c2bfa65c1f6106219feb6f93b7a37c3f4e6b92bd08cbb8fc57386c6131749"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.i686-w64-mingw32.tar.gz"
+[[CALCEPH]]
+arch = "powerpc64le"
+git-tree-sha1 = "88e9bf4bc25227721da13d6151a8dd0d381da914"
+libc = "glibc"
+os = "linux"
+
+    [[CALCEPH.download]]
+    sha256 = "7d0fc815f8f76c165e5b355c6b0b3164145491c74490c647d3109f5f70339bba"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.powerpc64le-linux-gnu.tar.gz"
+[[CALCEPH]]
+arch = "x86_64"
+git-tree-sha1 = "31d3463d41c069ac0262ac1f83d599003a9cd909"
+os = "macos"
+
+    [[CALCEPH.download]]
+    sha256 = "38cd430c65730cb00b307f4a4f148eda51b3bad0133c5b4febe817627018fd8a"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.x86_64-apple-darwin.tar.gz"
+[[CALCEPH]]
+arch = "x86_64"
+git-tree-sha1 = "d4374b3b571059d6497e387fa32782e0fe76d486"
+libc = "glibc"
+os = "linux"
+
+    [[CALCEPH.download]]
+    sha256 = "90aecf4eea94f647a1d8269f7d5125568bb74c9e3cfdfd4b9109855ccf2475e4"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.x86_64-linux-gnu.tar.gz"
+[[CALCEPH]]
+arch = "x86_64"
+git-tree-sha1 = "71ab28e4e73162f58068b5b093b4c3e0fa33a296"
+libc = "musl"
+os = "linux"
+
+    [[CALCEPH.download]]
+    sha256 = "3f02ba121976c19bf1e51dec1380d30dc5d37c7f732dc9ce4b539d4c2a717606"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.x86_64-linux-musl.tar.gz"
+[[CALCEPH]]
+arch = "x86_64"
+git-tree-sha1 = "edc934f7109f88be0717033a3b1b810325db4df0"
+os = "freebsd"
+
+    [[CALCEPH.download]]
+    sha256 = "44031db2b5c3110c46cda498175a36b8036b2ecdc2e7461e73547f424164c8fd"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.x86_64-unknown-freebsd.tar.gz"
+[[CALCEPH]]
+arch = "x86_64"
+git-tree-sha1 = "4f02669c3d740ebe80d1cbdbc43fcb2e2d3c8598"
+os = "windows"
+
+    [[CALCEPH.download]]
+    sha256 = "877838f67309749b6f1c522a99207afd4d4c6dbd44773aa948668e7c326f0d38"
+    url = "https://github.com/JuliaBinaryWrappers/CALCEPH_jll.jl/releases/download/CALCEPH-v3.5.3+0/CALCEPH.v3.5.3.x86_64-w64-mingw32.tar.gz"
